@@ -15,8 +15,7 @@ public class AboutActivity extends AppCompatActivity {
         findViewById(R.id.btnGitHub).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Tukar ke link GitHub awak
-                String url = "https://github.com/yourusername/your-repo-name";
+                String url = "String url = \"https://github.com/gratituderahil/ElectricBillCalculator\";\n";
                 startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(url)));
             }
         });
